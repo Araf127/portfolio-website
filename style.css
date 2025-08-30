@@ -1,0 +1,259 @@
+*{
+        font-family: "Open Sans", sans-serif;
+        box-sizing:border-box;
+        margin:0;
+        padding: 0;
+
+      }
+      
+    body{
+        min-height: 100vh;
+      
+
+    }
+
+    /* Common code */
+    .container{
+    max-width: 1200px;
+    margin: auto;
+
+    }
+    .btn{
+      
+      padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #FD6E0A;
+        border: none;
+        color: #FFFFFF;
+        font-weight: bold;
+        margin-right: 20px;
+       
+        
+
+    }
+    .title{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        margin: 20px;
+    }
+
+    /* Nav  Section*/
+    nav{
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .nav-logo{
+       
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .nav-logo span{
+        color: #FD6E0A;
+    }
+    .nav-menu{
+        display: flex;
+        gap: 50px;
+        
+        align-items: center;
+        margin-top: 20px;
+        
+
+    }
+    
+.btn-one{
+   
+      padding: 10px 20px;
+        border-radius: 5px;
+       background-color: white;
+        border: 1px solid #FD6E0A;
+        color: #FD6E0A;
+        font-weight: bold;
+    
+
+}
+
+.fa-download{
+    margin-right: 10px;
+}
+.fa-phone{
+     margin-right: 10px;
+
+}
+
+/* Banner Section */
+
+
+
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+
+}
+.banner-img{
+    background-image: url('/images/header_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 584px;
+    height: 667px;
+    
+}
+.content-text-design h2{
+    font-size: 45px;
+
+}
+.content-text-design h1{
+    font-size: 85px;
+    font-weight: bold;
+    gap: 30px;
+}
+.content-text-design p{
+    font-size: 18px;
+    color: #474747;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+/* About ME */
+.about-me-container{
+    width: 1140px;
+    
+    
+    background-color: #FFF8F3;
+    margin: auto;
+   
+}
+
+.aboutme-text-container{
+    width: 827px;
+    height: 288px;
+    margin: auto auto ;
+    padding: 100px ;
+    background-color: #FFFFFF;
+    
+
+}
+.bio p{
+   margin-bottom: 30px;
+   text-align: center;
+   color: #757575;
+   font-size: 18px;
+   
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 30px;
+}
+.info ul li{
+    list-style: none;
+}
+
+
+/* What I Do */
+.details p{
+   text-align: center;
+   font-size: 18px;
+   width: 909px;
+   margin: auto;
+   color: #757575;
+}
+
+/* logo-design */
+
+.logos{
+    display: flex;
+width: 800px;
+  margin: auto;
+  gap: 40px;
+ 
+}
+.same-design{
+    width: 267px;
+   
+    border-radius: 5px;
+    padding: 40px;
+    
+
+}
+.same-design *{
+    padding-bottom: 20px;
+}
+ 
+/* educattion and experience */
+
+.education-and-experience{
+    width: 800px;
+    margin: auto;
+
+}
+
+
+.edu-exp{
+    display: flex;
+    margin: 60px 90px;
+    gap: 40px;
+    justify-content: center;
+   
+}
+.edu-exp h4{
+    color: #757575;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.edu-exp p{
+    font-size: 20px;
+    color: #757575;
+}
+.edu-exp h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+/* ending */
+
+.ending{
+   width: 800px;
+    margin: auto;
+    background-color: #FFF8F3;
+   
+}
+
+.end-design{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-top: 80px;
+  
+}
+input{
+    width: 100%;
+    padding:10px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    padding:10px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.fa{
+    color: #FD6E0A;
+    margin-right: 5px;
+    
+}
+.end-design p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.end-design h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
