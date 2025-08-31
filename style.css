@@ -126,37 +126,37 @@
     
     background-color: #FFF8F3;
     margin: auto;
+    padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 10px;
    
 }
-
-.aboutme-text-container{
+.about-mee{
     width: 827px;
-    height: 288px;
-    margin: auto auto ;
-    padding: 100px ;
-    background-color: #FFFFFF;
-    
+     background-color: #FFFFFF;
+     margin: auto;
+     border: 1px solid #000000;
+     margin-top: 50px;
+     margin-bottom: 50px;
+    padding: 20px;
+}
+.about-mee p{
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
 
+    
 }
-.bio p{
-   margin-bottom: 30px;
-   text-align: center;
-   color: #757575;
-   font-size: 18px;
-   
-}
-.info{
+
+.more-info{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    gap: 30px;
-}
-.info ul li{
-    list-style: none;
+    margin-top: 20px;
 }
 
 
 /* What I Do */
+
 .details p{
    text-align: center;
    font-size: 18px;
@@ -170,10 +170,11 @@
 .logos{
     display: flex;
 width: 800px;
-  margin: auto;
+ margin: auto;
   gap: 40px;
  
 }
+
 .same-design{
     width: 267px;
    
@@ -206,6 +207,9 @@ width: 800px;
     color: #757575;
     font-size: 16px;
     margin-top: 25px;
+}
+.edu-exp h3{
+    font-size: 20px;
 }
 .edu-exp p{
     font-size: 20px;
